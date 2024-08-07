@@ -119,7 +119,7 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://t.me/+0QW3Ucvc6mI4YTBl")
+URL = environ.get("URL", "https://auto-filter-bot-4hy7.onrender.com")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
