@@ -27,7 +27,7 @@ API_HASH = environ.get('API_HASH', '429c3423fba4cac53c02b8da777e93a8')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '7252841491:AAENxIK77wNYSlyKqgfq9o_bWhTm8zDuUvQ')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7379048590:AAGSuPqQRJTzdZRdHQlUdrnsNxXTnL5T0mg')
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
@@ -48,7 +48,7 @@ else:
 INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1002216221045').split()]
 if len(INDEX_CHANNELS) == 0:
     print('Info - INDEX_CHANNELS is empty')
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002152815615')
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002233672974')
 if len(LOG_CHANNEL) == 0:
     print('Error - LOG_CHANNEL is missing, exiting now')
     exit()
